@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(127, 30, 30, 0.1);
+  padding: 10%;
+  text-align: center;
+  width: 300px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+h2 {
+  font-family: 'Segoe UI', serif;
+  margin: 0;
+  color: #007bff;
+  font-size: 0.90em;
+}
+
+p {
+  color: #555;
+}
+
+.contact {
+  margin-top: 15px;
+  font-size: 14px;
+}
